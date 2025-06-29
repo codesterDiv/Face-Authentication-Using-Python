@@ -56,5 +56,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q') or count >= 10:
         break
 
-cap.release()
-cv2.destroyAllWindows()
+while True:
+    cap.release()
+    cv2.destroyAllWindows()
